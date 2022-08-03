@@ -4,7 +4,6 @@ export const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 62.5%;
-    height: 100vh;
   }
 
   *,
@@ -20,8 +19,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    height: 100%;
     background: ${props => props.theme.color.darkJungleGreen};
     font-family: ${props => props.theme.typography.fontFamily};
+  }
+
+  img {
+    display: block;
   }
 `

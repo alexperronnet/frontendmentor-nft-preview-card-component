@@ -4,13 +4,17 @@ import { Card } from "~/components"
 
 export const App = () => {
   return (
-    <StyledApp>
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <StyledApp>
         <GlobalStyle />
         <Card />
-      </ThemeProvider>
-    </StyledApp>
+      </StyledApp>
+    </ThemeProvider>
   )
 }
 
-const StyledApp = styled.main``
+const StyledApp = styled.main`
+  height: 100vh;
+  display: grid;
+  place-items: center;
+`

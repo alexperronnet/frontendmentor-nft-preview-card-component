@@ -18,15 +18,15 @@ export const theme = {
     },
 
     fontSize: {
-      sm: "2.2rem",
+      sm: "1.6rem",
       md: "1.8rem",
-      lg: "1.6rem"
+      lg: "2.2rem"
     },
 
     lineHeight: {
-      sm: "2.8rem",
+      sm: "2rem",
       md: "2.6rem",
-      lg: "2rem"
+      lg: "2.8rem"
     }
   }
 }
