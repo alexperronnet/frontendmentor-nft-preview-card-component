@@ -70,7 +70,7 @@ const ImageOverlay = styled.div`
   place-items: center;
   width: 100%;
   height: 100%;
-  background-color: ${rgba("#00FFF8", 0.5)};
+  background-color: ${props => rgba(props.theme.color.aqua, 0.5)};
   opacity: 0;
   transition: opacity 200ms linear;
 

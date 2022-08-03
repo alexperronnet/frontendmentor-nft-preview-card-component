@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import { rgba } from "polished"
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -19,8 +20,14 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    text-rendering: optimizeSpeed;
     background: ${props => props.theme.color.darkJungleGreen};
     font-family: ${props => props.theme.typography.fontFamily};
+  }
+
+  ::selection {
+    color:  ${props => props.theme.color.aqua};
+    background: ${props => rgba(props.theme.color.aqua, 0.1)};
   }
 
   img {
