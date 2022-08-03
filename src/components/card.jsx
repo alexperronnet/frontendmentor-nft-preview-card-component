@@ -149,6 +149,7 @@ const Creator = styled.div`
     font-size: ${props => props.theme.typography.fontSize.sm};
     font-weight: ${props => props.theme.typography.fontWeight.regular};
     line-height: ${props => props.theme.typography.lineHeight.sm};
+    margin-top: -0.1rem;
 
     a {
       text-decoration: none;
