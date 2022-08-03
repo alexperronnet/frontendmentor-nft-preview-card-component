@@ -125,6 +125,11 @@ const Remaining = styled.div`
   align-items: center;
   gap: 0.77rem;
 
+  img {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
   span {
     color: ${props => props.theme.color.lightCobaltBlue};
     font-size: ${props => props.theme.typography.fontSize.sm};
