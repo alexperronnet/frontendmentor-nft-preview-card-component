@@ -31,7 +31,8 @@ export const Card = () => {
       <Creator>
         <Avatar src={imgAvatar} alt="creator avatar" />
         <span>
-          <span>Creation of</span> <a href="#">Jules Wyvern</a>
+          <span>Creation of</span>
+          <a href="#">Jules Wyvern</a>
         </span>
       </Creator>
     </StyledCard>
@@ -145,6 +146,9 @@ const Creator = styled.div`
   gap: 1.6rem;
 
   span {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
     color: ${props => props.theme.color.lightCobaltBlue};
     font-size: ${props => props.theme.typography.fontSize.sm};
     font-weight: ${props => props.theme.typography.fontWeight.regular};
