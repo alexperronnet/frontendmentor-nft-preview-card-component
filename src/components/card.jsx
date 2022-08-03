@@ -113,6 +113,9 @@ const Price = styled.div`
   gap: 0.648rem;
 
   span {
+    text-align: left;
+    vertical-align: top;
+    word-spacing: 1px;
     color: ${props => props.theme.color.aqua};
     font-size: ${props => props.theme.typography.fontSize.sm};
     font-weight: ${props => props.theme.typography.fontWeight.semiBold};
@@ -131,6 +134,9 @@ const Remaining = styled.div`
   }
 
   span {
+    text-align: left;
+    vertical-align: top;
+    word-spacing: 1px;
     color: ${props => props.theme.color.lightCobaltBlue};
     font-size: ${props => props.theme.typography.fontSize.sm};
     font-weight: ${props => props.theme.typography.fontWeight.regular};
@@ -160,7 +166,16 @@ const Creator = styled.div`
     line-height: ${props => props.theme.typography.lineHeight.sm};
     margin-top: -0.1rem;
 
+    span {
+      text-align: left;
+      vertical-align: top;
+      word-spacing: 1px;
+    }
+
     a {
+      text-align: left;
+      vertical-align: top;
+      word-spacing: 1px;
       text-decoration: none;
       color: ${props => props.theme.color.white};
 
