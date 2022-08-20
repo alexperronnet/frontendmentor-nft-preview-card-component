@@ -4,6 +4,7 @@ import { resolve } from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/frontendmentor-nft-preview-card-component/",
   plugins: [react()],
   resolve: {
     alias: {
